@@ -1,13 +1,27 @@
 # VizFracSet 
 This repository features a dataset of fractures for computer vision algorithms, machine learning with Geological rigor.
 
-
 <p align="center">
-<img src="" width="600" alt="Results"> 
+<img src="https://github.com/lucaskup/VizFracSet/blob/master/sample/all.png" width="700" alt="Results"> 
 </p>
 
-## Published articles 
+## Project tree
+This dataset provides three versions for every annotation. By doing this we preserve geological context and georeferencing needed for some types of studies.
+For computational and statistical evaluation of ML algorithms we provide [Coco Annotations](http://cocodataset.org/#format-data) and binary masks generated from the georreferenced images.
 
+
+```
+├── dataset
+│   ├── vector              # QGIS project files, Georreferenced TIFF and Shape files were fractures are marked
+│   ├── pixel               # PNG version of the TIFF files and coco annotations for the apperture of fractures 
+│   └── mask                # Binary png file with fractures shown as white
+├── sample                  # Sample images for README
+└── scripts                 # usefull python 3.x scripts to handle the dataset
+    ├── convTiff_To_PNG.py  # Converts TIFF to PNG
+    └──createMasksCOCO.py   # Creates mask file from PNG + Coco Annotations
+```
+## Published articles 
+Yet to be published.
 
 
 
@@ -21,16 +35,31 @@ This repository features a dataset of fractures for computer vision algorithms, 
 
 ## Requirements
 
-``` 
-numpy
+To open and work with TIFF and Shapefiles:
+> QGIS 3.1 or above
+
+To edit Coco Annotations you can use your favorite annotation tool, but we recommend: 
+> [Coco Annotator](https://github.com/jsbroks/coco-annotator).
+
+To run python scripts you should install Python 3.x and the following libs:
 
 ``` 
+numpy
+imageio
+cv2
+pycocotools.coco
+``` 
+To install pycocotools please run the following command:
+
+```
+$ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+```
 
 ## Usage
 
 ## How to cite
 
-If you find our work useful in your research please consider citing our paper:
+If you find our work useful in your research please consider citing our paper: 
 ```
 
   ```
