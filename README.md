@@ -7,7 +7,7 @@ This repository features a dataset of fractures for computer vision algorithms, 
 
 ## Project tree
 This dataset provides three versions for every annotation. By doing this we preserve geological context and georeferencing needed for some types of studies.
-For computational and statistical evaluation of ML algorithms we provide Coco Annotations and binary masks generated from the georreferenced images.
+For computational and statistical evaluation of ML algorithms we provide [Coco Annotations](http://cocodataset.org/#format-data) and binary masks generated from the georreferenced images.
 
 
 ```
@@ -35,10 +35,25 @@ Yet to be published.
 
 ## Requirements
 
-``` 
-numpy
+To open and work with TIFF and Shapefiles:
+> QGIS 3.1 or above
+
+To edit Coco Annotations you can use your favorite annotation tool, but we recommend: 
+> [Coco Annotator](https://github.com/jsbroks/coco-annotator).
+
+To run python scripts you should install Python 3.x and the following libs:
 
 ``` 
+numpy
+imageio
+cv2
+pycocotools.coco
+``` 
+To install pycocotools please run the following command:
+
+```
+$ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+```
 
 ## Usage
 
