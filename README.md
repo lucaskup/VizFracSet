@@ -36,7 +36,7 @@ Yet to be published.
 ## Requirements
 
 To open and work with TIFF and Shapefiles:
-> QGIS 3.1 or above
+> [QGIS](https://www.qgis.org) 3.1 or above
 
 To edit Coco Annotations you can use your favorite annotation tool, but we recommend: 
 > [Coco Annotator](https://github.com/jsbroks/coco-annotator).
