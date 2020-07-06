@@ -3,7 +3,7 @@ This repository features a dataset of fractures for computer vision algorithms, 
 
 
 <p align="center">
-<img src="" width="600" alt="Results"> 
+<img src="https://github.com/lucaskup/VizFracSet/blob/master/sample/all.png" width="800" alt="Results"> 
 </p>
 
 ## Published articles 
