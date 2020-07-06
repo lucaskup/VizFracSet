@@ -2,7 +2,7 @@
 This repository features a dataset of fractures for computer vision algorithms, machine learning with Geological rigor.
 
 <p align="center">
-<img src="https://github.com/lucaskup/VizFracSet/blob/master/sample/all.png" width="700" alt="Results"> 
+<img src="https://github.com/lucaskup/VizFracSet/blob/master/sample/all-min.png" width="700" alt="Results"> 
 </p>
 
 ## Project tree
