@@ -12,13 +12,13 @@ For computational and statistical evaluation of ML algorithms we provide [Coco A
 
 ```
 ├── dataset
-│   ├── vector              # QGIS project files, Georreferenced TIFF and Shape files were fractures are marked
-│   ├── pixel               # PNG version of the TIFF files and coco annotations for the apperture of fractures 
+│   ├── vector              # QGIS proj., Georreferenced TIFFs + Shapes with fractures marked
+│   ├── pixel               # PNG version of the TIFF files + Coco Annotations for fractures 
 │   └── mask                # Binary png file with fractures shown as white
 ├── sample                  # Sample images for README
 └── scripts                 # usefull python 3.x scripts to handle the dataset
     ├── convTiff_To_PNG.py  # Converts TIFF to PNG
-    └──createMasksCOCO.py   # Creates mask file from PNG + Coco Annotations
+    └── createMasksCOCO.py  # Creates mask file from PNG + Coco Annotations
 ```
 ## Published articles 
 Yet to be published.
