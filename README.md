@@ -56,11 +56,11 @@ $ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=Pytho
 
 This dataset allows for different usages each of the folders under dataset contains information of interest for specific groups.
 
-In [vector](.\dataset\vector) there are georreferenced TIFF files obtained through UAV mapping of carbonate outcrops. There is also the shapefiles that contains the lines used to delineate the fractures. All the work in this directory was curated and validated with geologists before the generation of pixel space marking or masks.
+In [vector](./dataset/vector) there are georreferenced TIFF files obtained through UAV mapping of carbonate outcrops. There is also the shapefiles that contains the lines used to delineate the fractures. All the work in this directory was curated and validated with geologists before the generation of pixel space marking or masks.
 
-In [pixel](.\dataset\pixel) there are PNG and Coco Annotation files equivalent to the areas define in [vector](.\dataset\vector), files are kept with the same name in both directories, so it is possible to track which pixel space markings bellong to which original vector space marking.
+In [pixel](./dataset/pixel) there are PNG and Coco Annotation files equivalent to the areas define in [vector](.\dataset\vector), files are kept with the same name in both directories, so it is possible to track which pixel space markings bellong to which original vector space marking.
 
-In [masks](.\dataset\mask) there are binary masks equivalent to the images in [pixel](.\dataset\pixel)
+In [masks](./dataset/mask) there are binary masks equivalent to the images in [pixel](.\dataset\pixel)
 
 ## How to cite
 
