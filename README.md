@@ -18,6 +18,8 @@ For computational and statistical evaluation of ML algorithms we provide [Coco A
 ├── sample                  # Sample images for README
 └── scripts                 # usefull python 3.x scripts to handle the dataset
     ├── convTiff_To_PNG.py  # Converts TIFF to PNG
+	├── fractStats.py       # Script for QGIS, used to extract Azimuth and length of fractures
+	├── rosechart.py  		# Create rosechart from fractstats
     └── createMasksCOCO.py  # Creates mask file from PNG + Coco Annotations
 ```
 
