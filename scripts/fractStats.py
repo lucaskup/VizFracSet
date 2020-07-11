@@ -1,3 +1,8 @@
+# This script is used to calculate azimuth and
+# length of lines. It is usefull for fracture definition
+# and rosechart creation. To use this you need
+# to have and active shapefile layer with lines on it
+
 myline = qgis.utils.iface.activeLayer()
 myline.selectByExpression("\"id\">0")
 
